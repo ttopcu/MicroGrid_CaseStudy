@@ -1,1 +1,5 @@
 This is the MG Case Study that is submitted to Annals of Operations Research on 10/14/2019
+
+The "main.m" file is the main module of the case study. It has all the design variables and calls other functions to conduct the analysis described in the paper. 
+The main module reads the NREL data from "FL_normalrandom.xlsx", then simulates the Micro Grid Production behavior using the other functions.
+Once the algortihm finishes, it creates a csv. file that include the input and output data of the decision-making units (DMUs).
